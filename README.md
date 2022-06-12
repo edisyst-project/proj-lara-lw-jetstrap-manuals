@@ -41,3 +41,6 @@ Ho giocato un pochino nei seguenti file per far sì che gli asset venissero corr
 - webpack.mix.js
 
 Si è sporcata un pochino la pagina dashboard, così come quelle di Jetstrap, ma niente di che
+
+# TODO
+modal LW create/edit per Post
