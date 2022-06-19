@@ -34,4 +34,8 @@ Route::middleware([
 
     Route::resource('/posts', \App\Http\Controllers\PostController::class);
 //    ->only(['index, show']);
+
+    Route::resource('products', \App\Http\Controllers\ProductController::class);
+//    ->only(['index, create, edit']);
+
 });
