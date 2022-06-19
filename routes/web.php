@@ -38,4 +38,6 @@ Route::middleware([
     Route::resource('products', \App\Http\Controllers\ProductController::class);
 //    ->only(['index, create, edit']);
 
+    Route::view('users', 'users.index')->name('users.index');
+
 });
