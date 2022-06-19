@@ -52,7 +52,7 @@ class Create extends Component
         $this->validate();
 
         // mi piacerebbe gestire anche l'assenza della foto
-        $filename = $this->photo->store('products', 'public');
+        $filename = $this->photo->store('products/photos', 'public');
         $this->product->photo = $filename;
 
         $this->product->save();
