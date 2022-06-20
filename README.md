@@ -46,6 +46,8 @@ Si è sporcata un pochino la pagina dashboard, così come quelle di Jetstrap, ma
 # TODO
 - Post: 
   - devo gestire l'edit
+  - modal LW create/edit per Post
 - Products:
   - devo gestire l'edit in caso non metta dei dati (es.non modifico l'immagine) 
   - devo gestire il paginate se sono in una pagina X (dovrei resettare a pag.1)
+
