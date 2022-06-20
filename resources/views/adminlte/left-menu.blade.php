@@ -66,6 +66,22 @@
                     </a>
                 </li>
 
+                <li class="nav-header">PRODUCTS</li>
+                <li class="nav-item">
+                    <a href="{{ route('products.index') }}" class="nav-link">
+                        <i class="fas fa-circle nav-icon"></i>
+                        <p>Products List</p>
+                    </a>
+                </li>
+
+                <li class="nav-header">USERS</li>
+                <li class="nav-item">
+                    <a href="{{ route('users.index') }}" class="nav-link">
+                        <i class="fas fa-circle nav-icon"></i>
+                        <p>Users List</p>
+                    </a>
+                </li>
+
 
 
 

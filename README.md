@@ -42,5 +42,12 @@ Ho giocato un pochino nei seguenti file per far sì che gli asset venissero corr
 
 Si è sporcata un pochino la pagina dashboard, così come quelle di Jetstrap, ma niente di che
 
+
 # TODO
-modal LW create/edit per Post
+- Post: 
+  - devo gestire l'edit
+  - modal LW create/edit per Post
+- Products:
+  - devo gestire l'edit in caso non metta dei dati (es.non modifico l'immagine) 
+  - devo gestire il paginate se sono in una pagina X (dovrei resettare a pag.1)
+
