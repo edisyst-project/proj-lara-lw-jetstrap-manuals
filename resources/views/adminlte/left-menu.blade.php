@@ -27,7 +27,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-circle"></i>
+                        <i class="nav-icon fas fa-user-pen"></i>
                         <p>
                             {{ Auth::user()->name }}
                             <i class="right fas fa-angle-left"></i>
@@ -61,7 +61,7 @@
                 <li class="nav-header">POSTS</li>
                 <li class="nav-item">
                     <a href="{{ route('posts.index') }}" class="nav-link">
-                        <i class="fas fa-circle nav-icon"></i>
+                        <i class="fa-solid fa-pen-to-square nav-icon"></i>
                         <p>Posts List</p>
                     </a>
                 </li>
@@ -69,7 +69,7 @@
                 <li class="nav-header">PRODUCTS</li>
                 <li class="nav-item">
                     <a href="{{ route('products.index') }}" class="nav-link">
-                        <i class="fas fa-circle nav-icon"></i>
+                        <i class="fa-solid fa-box-archive nav-icon"></i>
                         <p>Products List</p>
                     </a>
                 </li>
@@ -77,8 +77,16 @@
                 <li class="nav-header">USERS</li>
                 <li class="nav-item">
                     <a href="{{ route('users.index') }}" class="nav-link">
-                        <i class="fas fa-circle nav-icon"></i>
+                        <i class="fas fa-users nav-icon"></i>
                         <p>Users List</p>
+                    </a>
+                </li>
+
+                <li class="nav-header">TODOS</li>
+                <li class="nav-item">
+                    <a href="{{ route('todos.index') }}" class="nav-link">
+                        <i class="fa-solid fa-list nav-icon"></i>
+                        <p>Todos List</p>
                     </a>
                 </li>
 
