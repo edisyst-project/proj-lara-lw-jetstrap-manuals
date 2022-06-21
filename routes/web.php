@@ -40,4 +40,9 @@ Route::middleware([
 
     Route::view('users', 'users.index')->name('users.index');
 
+    // Livewire Todo Application Routes
+    Route::get('todos', function(){
+        return view('todos.index', []);
+    })->name('todos.index');
+
 });

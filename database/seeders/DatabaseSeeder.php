@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Post;
+use App\Models\Todo;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
@@ -21,5 +22,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call(CategorySeeder::class);
         $this->call(ProductSeeder::class);
+
+        Todo::factory(20)->create();
     }
 }

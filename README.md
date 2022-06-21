@@ -49,3 +49,6 @@ Si è sporcata un pochino la pagina dashboard, così come quelle di Jetstrap, ma
 - Products:
   - devo gestire l'edit in caso non metta dei dati (es.non modifico l'immagine) 
   - devo gestire il paginate se sono in una pagina X (dovrei resettare a pag.1)
+- Todo
+  - devo rimuovere lo <style> personalizzato dai vari component e usare le classi di AdminLTE
+  - devo rinominare desc con description
